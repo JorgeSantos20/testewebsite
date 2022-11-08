@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark: #565656;
+  --primary-light: #709dff;
+}
+
+@layer base {
+  body {
+    @apply font-bold;
+  }
+  li {
+    @apply p-4;
+  }
+  h1 {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  h3 {
+    @apply text-3xl font-bold;
+  }
+}
+
+.buttonTeste {
+  width: 194px;
+  height: 67px;
+  border-radius: 9px;
+  font-size: 30px;
+  top: 0;
+  text-align: center;
+  border-color: #ffffff;
+  background: transparent;
+  border-width: 2px;
+}
+
+.socialmedia{
+    display: flex;
+    margin: 2px;
+}
